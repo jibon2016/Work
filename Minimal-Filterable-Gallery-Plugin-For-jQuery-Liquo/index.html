@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Liquo Plugin Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="liquo/liquo.css" />
+</head>
+<style>
+body { background-color:#333; color:#fff;}
+.container { margin:150px auto;}
+.liquo -active { font-weight: bold; }
+
+.liquo-gallery li image { width: 100%; border:3px solid #fff; border-radius:3px; }
+.liquo-gallery li {}
+</style>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/gallery/Minimal-Filterable-Gallery-Plugin-For-jQuery-Liquo.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+<h1>jQuery Liquo Plugin Demo</h1>
+  <div id="gallery-menu"> <a href="#" data-liquo="all" class="btn btn-primary">All</a> <a href="#" data-liquo="1" class="btn btn-warning">Category 1</a> <a href="#" data-liquo="2" class="btn btn-warning">Category 2</a> <a href="#" data-liquo="3" class="btn btn-warning">Category 3</a> <a href="#" data-liquo="4" class="btn btn-danger">Invalid Category</a> </div><br>
+<br>
+
+  <ul id="gallery">
+    <li data-liquo="1"> <img src="https://unsplash.it/300/300?image=674" /> </li>
+    <li data-liquo="2"> <img src="https://unsplash.it/300/300?image=667" /> </li>
+    <li data-liquo="3"> <img src="https://unsplash.it/300/300?image=664" /> </li>
+    <li  data-liquo="3"> <img src="https://unsplash.it/300/300?image=658" /> </li>
+    <li data-liquo="1"> <img src="https://unsplash.it/300/300?image=669" /> </li>
+    <li data-liquo="2"> <img src="https://unsplash.it/300/300?image=663" /> </li>
+  </ul>
+</div>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="liquo/liquo.min.js"></script> 
+<script>
+        $("#gallery").liquo({
+            menu: "#gallery-menu",
+            random: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+header img{
+	width: 100px;
+	height: 60px;
+}
+header{
+	font-family: 'Roboto', sans-serif;
+}
+
+.myslider{
+	background: url(../img/banner.jpg);
+	/*background: cover;*/
+
+	font-family: 'Roboto', sans-serif;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*background: rgba(0,0,0,.7);*/
+}
+.carousel-caption-inner{
+	padding:100px;
+}
+.carousel-caption-inner h3{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.carousel-caption-inner h2{
+	font-size: 100px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	width: 670px;
+	margin: auto;
+}
+.carousel-caption-inner h2 span {
+	color: #87D37C;
+}
+.carousel-caption-inner h4{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color:  #fff;
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color:  #87D37C;
+}
+.overlay{
+	background: rgba(0,0,0, .5
+		);
+	width: 100%;
+	height: 100%;
+}
+/*Slider Ending*/
+
+
+/*About Section*/
+
+.about-top{
+	padding: 80px 0px 40px 0px;
+}
+.about-top h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 20px;
+}
+.about-top p{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #333;
+	width: 670px;
+	margin: auto;
+}
+.about-bottom{
+	padding-bottom: 80px;
+}
+.about-bottom h2{
+	font-size: 24px ;
+	text-transform: uppercase;
+	color: #000;
+	padding-top: 10px;
+	transition: .3s;
+}
+.about-bottom i{
+	transition: .3s;
+}
+.about-bottom p{
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #333;
+	margin: auto;
+	text-align: justify;
+}
+.about-bottom-hover:hover i, .about-bottom-hover:hover h2{
+	color: #87D37C;
+	cursor: pointer;
+}
+/*About Part End*/
+
+
+/*Service Part Start*/
+.service-section{
+	background: #E1E1E1;
+}
+.service-top{
+	/*border: 1px solid;*/
+	padding: 80px 0px 40px 0px;
+}
+.service-top h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 20px;
+}
+.service-top p{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #333;
+	width: 670px;
+	margin: auto;
+}
+.service-bottom{
+	border: 1px solid;
+}
+.service-bottom-contain{
+	position: relative;
+	overflow: hidden;
+}
+.service-bottom-contain-ovrlay{
+	position: absolute;
+	background: rgba(0,0,0, .3);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .3s;
+
+}
+.service-bottom-contain:hover .service-bottom-contain-ovrlay{
+	top: 0
+}
+.product-icon{
+	position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.product-icon i{
+	color: #fff;
+	font-size: 24px;
+	border:1px solid #fff;
+	border-radius: 100%;
+	padding: 20px;
+	margin-right: 10px;
+}
+.product-icon i:hover{
+	background: #87D37C;
+	cursor: pointer;
+}
+.service-bottom-section{
+	padding-bottom: 80px;
+}
+
+/*Service Part End*/
+
+/*Conter Part Start*/
+
+.counter-section{
+	background: url(../img/Counter_bg.jpg);
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.counting{
+	border: 1px solid;
+}
+.counter-section-overlay{
+	background: rgba(0,0,0, .3);
+}
+.counter-padding{
+	padding: 120px;
+}
+.counting h3{
+	font-weight: bold;
+	font-size: 60px;
+}
+/*Conter Part Ent*/
+/*Posrtfolio Part Start*/
+
+.portfolio-top{
+	/*border: 1px solid;*/
+	padding: 80px 0px 40px 0px;
+}
+.portfolio-top h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 20px;
+}
+.portfolio-top p{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #333;
+	width: 670px;
+	margin: auto;
+}
+
+
+
+.nav-menu{
+	padding: 30px;
+	width: 100%;
+	margin:auto;
+	height: 100px;
+	text-align: center;
+}
+.nav-menu > nav{
+	height: 100%;
+	width: 100%;
+	margin:auto;
+	text-align: center;
+	padding-left: 50px;
+}
+.nav-menu > nav > ul{
+	text-align: center;
+}
+.nav-menu > nav > ul > li{
+	list-style-type: none;
+	float: left;
+	margin-right: 15px;
+	background: #000;
+	display: inline-block;
+	padding: 10px 30px 10px 30px ;
+}
+.nav-menu > nav > ul > li > a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	line-height: 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+.nav-menu > nav > ul > li:hover{
+	background: #87D37C;
+
+}
+/*Posrtfolio Part Ent*/
+
+
+
+
+
+
+
+
+header .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #87D37C;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    padding: 0px 0px 10px 0px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media (min-width: 1200px) {
+
+	header .navbar-dark .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+	header .navbar-dark .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	
+
+header .navbar-dark .navbar-nav .nav-link {
+	padding-left: 0px;
+	padding-right: 7px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+}
